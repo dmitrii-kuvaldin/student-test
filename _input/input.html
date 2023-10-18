@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="input.css">
+    <script src="input.js" defer></script>
+    <title>Gender Prediction Website</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Главная</a></li>
+                <li><a href="../_input/input.html">Ввод данных</a></li>
+                <li><a href="../_contacts/contacts.html">Информация о клиентах</a></li>
+                <li><a href="../_contacts/contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="pageContent">
+        <h1 class="pageContent">Введите имя:</h1>
+    </div>
+    <form id="form" style="padding: 30px;">
+        <input type="text" placeholder="Enter name" required name="name">
+        <button type="submit">Reveal gender</button>
+    </form>
+    <div id="answer" style="color: rgb(152, 123, 180);"></div>
+    <div id="clientContainer"></div>
+    <div id="loader" style="display:none" class="loader"></div>
+</body>
+</html>
